@@ -1,57 +1,39 @@
 [
     {
-        "title": " ",
+        "title": "Chocolate cake",
         "image": "https://i.ibb.co/x5fcS83/food-9.jpg",
         "rating": "4.5",
-        "desc": ""
+        "desc": "Chocolate cake is made with chocolate. It can also include other ingredients.[1] These include fudge, vanilla creme, and other sweeteners. The history of chocolate cake goes back to the 17th century, when cocoa powder from the Americas was added to traditional cake recipes."
     },
     {
-        "title": " ",
+        "title": "French fries with salaad",
         "image": "https://i.ibb.co/5x7XP0K/food-2.jpg",
         "rating": "4.3",
-        "desc": ""
+        "desc": "French fries, chips, finger chips, french-fried potatoes, or simply fries, are batonnet or allumette-cut deep-fried potatoes of disputed origin from Belgium and France. They are prepared by cutting potatoes into even strips, drying them, and frying them, usually in a deep fryer."
     },
     {
-        "title": " ",
+        "title": "cheeseburger with french fry",
         "image": "https://i.ibb.co/n080jj1/food-3.jpg",
         "rating": "4.0",
-        "desc": ""
+        "desc": "This cheeseburger is a hamburger topped with cheese. Traditionally, the slice of cheese is placed on top of the meat patty. The cheese is usually added to the cooking hamburger patty shortly before serving, which allows the cheese to melt. Cheeseburgers can include variations in structure, ingredients and composition."
     },
     {
-        "title": " ",
+        "title": "Masala Naan Bread ",
         "image": "https://i.ibb.co/7z2ZQr0/food-1.jpg",
         "rating": "4.2",
-        "desc": ""
+        "desc": "Naan is a leavened, oven-baked or tawa-fried flatbread which is found in the cuisines mainly of Western Asia, Central Asia, Indian subcontinent, Indonesia, Malaysia, Myanmar, and the Caribbean."
     },
     {
-        "title": " ",
+        "title": "4Pices sandwich",
         "image": "https://i.ibb.co/44Bw6Xc/food-6.jpg",
         "rating": "4.5",
-        "desc": ""
+        "desc": "sandwich is a food typically consisting of vegetables, sliced cheese or meat, placed on or between slices of bread, or more generally any dish wherein bread serves as a container or wrapper for another food type."
     },
     {
-        "title": " ",
-        "image": "https://i.ibb.co/r4vt6bX/food-7.jpg",
-        "rating": "4.2",
-        "desc": ""
-    },
-    {
-        "title": " ",
-        "image": "https://i.ibb.co/jDB39sS/food-5.jpg",
-        "rating": "4.3",
-        "desc": ""
-    },
-    {
-        "title": " ",
-        "image": "https://i.ibb.co/MDR8tbG/food-4.jpg",
-        "rating": "4.1",
-        "desc": ""
-    },
-    {
-        "title": " ",
+        "title": "eGG recipe",
         "image": "https://i.ibb.co/RQvsMRf/food-8.jpg",
         "rating": "4.4",
-        "desc": ""
+        "desc": "If you happen to be cooking for a special occasion (maybe Easter or Mother’s Day brunch?), egg recipes can come in handy then too. A frittata or breakfast casserole would make a great main dish, and when it comes to appetizers, creamy, tangy deviled eggs are always a hit."
     }
 ]
 
