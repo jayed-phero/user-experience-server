@@ -1,26 +1,19 @@
-# **Assignment Ten**
-# Website Name = BestCo
- _This Website is about Computer Science Based_
+# **Assignment Eleven**
+
+ _This is server site of  _
+ # Website Name = DCARE Dental
 ---
 
-This is an (ICT) based educational website . This site made with React.js and for desigining tailwind.css . At the present Computer technology is most important for all over dthe world . We can easily say that the present world is highlt depended on ict and computer technology . So Computer science is most important for us.
+This is an (Dental) service based server site . This site made with node.js and express.js .
 
- Using hooks and others
+# installed library for node.js
 
-* useState
-* useContext
-* useLcation
-* Navigate
-* useEffect
-* and others
-
- Others Using Library
-
-* React hot toast
-* heroicon
-* React router dom
-* daisyUi
-* tailwindcss
+* express
+* cors
+* dotenv
+* jsonwebtoken
+* others json()
+* mongoDB
 
 
-# [BestCo Live Link](' https://assignment-ten-bestco.web.app')
+# [BestCo Live Link]('  https://review-service-d1432.web.app')
