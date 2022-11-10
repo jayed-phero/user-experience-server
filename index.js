@@ -9,8 +9,6 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json())
 
-// user : reviewProjectDB
-// password: slKgestESHlQGtCI
 // require('crypto').randomBytes(64).toString('hex')
 
 // echo "# b6a11-service-review-server-side-jayed-phero" >> README.md
@@ -21,9 +19,10 @@ app.use(express.json())
 // git remote add origin https://github.com/Porgramming-Hero-web-course/b6a11-service-review-server-side-jayed-phero.git
 // git push -u origin main
 
-
-const uri = "mongodb+srv://reviewProjectDB:slKgestESHlQGtCI@cluster0.msatzvk.mongodb.net/?retryWrites=true&w=majority";
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.msatzvk.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
+
+
 
 const jwtTokenVerify = (req, res, next) => {
     const authHeader = req.headers.authorization;
@@ -43,8 +42,8 @@ const jwtTokenVerify = (req, res, next) => {
 
 async function run() {
     try {
-        const serviceCollection = client.db('reviewDB').collection('services')
-        const reviewCollection = client.db('reviewDB').collection('reviews')
+        const serviceCollection = client.db('assignElevenDB').collection('services')
+        const reviewCollection = client.db('assignElevenDB').collection('reviews')
 
         app.get('/services', async (req, res) => {
             const query = {};
