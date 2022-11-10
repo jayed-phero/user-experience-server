@@ -1,0 +1,38 @@
+[
+    {
+        "title": " Dental Bonding",
+        "desc": "Dental bonding is a technique used to correct imperfections with your teeth to give you a better-looking smile. Bonding is used to repair chipped teeth, decayed teeth, and cracked teeth. Bonding involves applying a tooth-colored resin material to the teeth and hardening it with a light. This bonds the material to the teeth to improve a person's smile. ",
+        "image": "https://images.pexels.com/photos/3779704/pexels-photo-3779704.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "80"
+    },
+    {
+        "title": " Teeth Cleanings",
+        "desc": "You need visit the dentist every six months for teeth cleanings. Tartar is a hard buildup of plaque that forms on the teeth. Tartar forms below and above the gum line. The only way to remove tartar is to see a dentist for a professional teeth cleaning. Regular teeth cleanings are important to maintaining healthy teeth and gums.",
+        "image": "https://images.pexels.com/photos/5355731/pexels-photo-5355731.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "49"
+    },
+    {
+        "title": "Teeth Whitening",
+        "desc": " Want a whiter smile? Your main options are at-home and in-office bleaching. At-home teeth whitening involves custom-made dental trays filled with hydrogen peroxide gel that you can use at home. For in-office bleaching, your dentist will combine hydrogen peroxide gel with a light source to speed up the whitening process.",
+        "image": "https://images.pexels.com/photos/6502542/pexels-photo-6502542.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "50"
+    },
+    {
+        "title": "Root Canal Therapy",
+        "desc": " In the past, diseased teeth often had to be extracted. Today, they often can be saved through root canal therapy. A root canal is a dental procedure that is used to repair teeth that are infected or badly decayed. Some people fear root canal treatments because they assume they are painful. Most people report that the procedure is no more painful than having a filling placed.",
+        "image": "https://images.pexels.com/photos/6627420/pexels-photo-6627420.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "70"
+    },
+    {
+        "title": "Tooth Extractions",
+        "desc": "A tooth extraction, or dental extraction, is the removal of a tooth from its socket in the bone. There are a number of reasons why tooth removal may be necessary. An extraction may be necessary if your tooth is so damaged that it can't be fixed with a dental restoration. In some cases, dentists extract teeth to prepare the patient's mouth for orthodontic treatment.",
+        "image": "https://images.pexels.com/photos/6502629/pexels-photo-6502629.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "89"
+    },
+    {
+        "title": " Cosmetic Fillings",
+        "desc": " Cosmetic fillings, or tooth- colored fillings, are made of composite resin and glass particles. They are cemented onto the existing teeth using a bonding agent. Cosmetic fillings can improve the appearance of your smile. Unlike silver-colored fillings, cosmetic fillings look just like your natural teeth. ",
+        "image": "https://images.pexels.com/photos/6502544/pexels-photo-6502544.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "price": "100"
+    }
+]
