@@ -9,15 +9,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json())
 
-// require('crypto').randomBytes(64).toString('hex')
 
-// echo "# b6a11-service-review-server-side-jayed-phero" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/Porgramming-Hero-web-course/b6a11-service-review-server-side-jayed-phero.git
-// git push -u origin main
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.msatzvk.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
@@ -106,6 +98,7 @@ async function run() {
             res.send(reviews)
         })
 
+
         // delete 
         app.delete('/myreviews/:id', async (req, res) => {
             const id = req.params.id;
@@ -143,7 +136,7 @@ async function run() {
                     id: req.query.id
                 }
             }
-            const cursor = reviewCollection.find(query)
+            const cursor = reviewCollection.find(query).sort({"date": -1})
             const reviews = await cursor.toArray();
             res.send(reviews)
         })
@@ -162,3 +155,7 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log(`review assignment Listening to port ${port}`)
 })
+
+
+
+
